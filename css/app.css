@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+* {
+	transition: 0.5s;
+}
+body {
+	background: #222;
+	color: #ddd;
+	font-size: 14px;
+}
+body, h1, h2, h3, h4, h5, h6,
+pre {
+	font-family: 'Titillium Web', Meiryo;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+	color: #eee;
+	font-size: 0.6em;
+	font-weight: normal;
+}
+hr {
+	border-bottom-color: #444;
+}
+.top-bar, .top-bar ul {
+	background: #000;
+	color: #fff;
+}
+thead, tbody, tfoot {
+	border-color: #444;
+	background: #000;
+	color: #fff;
+}
+thead th {
+	text-align: center;
+}
+tbody {
+	background: #222;
+}
+tbody tr:hover {
+	color: #ffc;
+}
+tbody tr:nth-child(even) {
+	background: #2f2f2f;
+}
+tbody td {
+	text-align: center;
+}
+.mute {
+	color: #777;
+}
+pre.c,
+pre.m {
+	padding: 0.5rem 1rem;
+	margin-bottom: 1rem;
+	border-left: 3px solid #000;
+	font-size: 12px;
+	color: #fff;
+}
+.c {
+	color: #0069FF;
+}
+.m {
+	color: #CA2045;
+}
+.bg-c {
+	background: #0069FF;
+}
+.bg-m {
+	background: #CA2045;
+}
+.vs {
+	background: #333;
+}
+.lost  {
+	opacity: 0.25;
+}
+pre.c {
+	border-color: #0069FF;
+}
+pre.m {
+	border-color: #CA2045;
+}
+pre::first-letter {
+	font-size: 28px;
+	float: left;
+	margin-right: 5px;
+	vertical-align: top;
+	line-height: 1;
+}
+pre.c::first-letter {
+	color: #339cff;
+}
+pre.m::first-letter {
+	color: #ed5078;
+}
+pre.c:hover,
+pre.m:hover {
+	color: #ffc;
+}
+.lead {
+	font-size: 1.5rem;
+}
+.callout {
+	border-color: #444;
+	background: #222;
+}
+.gotop {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	color: #fff;
+}
+.m-b-0 {
+	margin-bottom: 0;
+}
+.top-bar a,
+a {
+	color: #2AE821;
+}
+.top-bar a:hover,
+a:hover {
+	color: #4af841;
+}
+.m-b {
+	margin-bottom: 1rem;
+}
+.m-b-md {
+	margin-bottom: 1.5rem;
+}
+.m-b-lg {
+	margin-bottom: 3rem;
+}
+.m-b-xl {
+	margin-bottom: 5rem;
+}
+.m-t-0 {
+	margin-top: 0;
+}
+.m-t {
+	margin-top: 1rem;
+}
+.m-t-md {
+	margin-top: 1.5rem;
+}
+.m-t-lg {
+	margin-top: 3rem;
+}
+.m-y-0 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.m-t {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.m-y-md {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.m-y-lg {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.p-b-0 {
+	padding-bottom: 0;
+}
